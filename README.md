@@ -33,4 +33,12 @@ You can follow these steps to import a file in Postman:
 * After selecting the file, Postman will import it and create a new collection or request.
 * You can then edit the imported collection or request as needed and use it to test your API.
 
-[![Product Name Screen Shot][product-screenshot]]
+<div align="center">
+    <img src="images/img1.PNG" alt="Output">
+  </a>
+ </div>
+ 
+ <div align="center">
+    <img src="images/img2.PNG" alt="Output">
+  </a>
+ </div>
