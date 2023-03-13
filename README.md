@@ -10,18 +10,28 @@
 ## Getting Started
 
 * create database in phpMyAdmin
-* copy ```.env.example``` file add remame it to ```.env```
+* copy ```.env.example``` file add rename it to ```.env```
 * conigration database in ```.env```
 
-## Learning Laravel
+## inistallation and run
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This is an example of how to list things you need to use the software and how to install them.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```sh
+   composer install
+   composer update
+   php artisan migrate
+   php artisan db:seed
+   php artisan serve
+  ```
 
-## Laravel Sponsors
+## Postman
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+You can follow these steps to import a file in Postman:
+* Open Postman and click on the "Import" button located at the top-left corner of the screen.
+* Choose the type of file you want to import, such as a Postman Collection or a Swagger file, and select this file blogging_system_test.postman_collection.json.
+* After selecting the file, Postman will import it and create a new collection or request.
+* You can then edit the imported collection or request as needed and use it to test your API.
 
 ### Premium Partners
 
