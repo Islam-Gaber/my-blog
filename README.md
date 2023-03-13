@@ -19,12 +19,19 @@ This is an example of how to list things you need to use the software and how to
 
 ```sh
    composer install
-   composer update
    php artisan migrate
    php artisan db:seed
    php artisan serve
   ```
+## Database diagram
 
+<div align="center">
+    <img src="images/Copy of Untitled Diagram.png" alt="Output">
+  </a>
+ </div>
+ 
+ DB Link: [https://dbdiagram.io/d/640f50b0296d97641d879327](https://dbdiagram.io/d/640f50b0296d97641d879327)
+ 
 ## Postman
 
 You can follow these steps to import a file in Postman:
